@@ -2,7 +2,8 @@ name: BEI Screener
 
 on:
   schedule:
-    - cron: '32 12 * * 0-5'   # Senin–Jumat
+    - cron: '00 21 * * 0-4'   # Senin–Jumat
+    - cron: '00 09 * * 1-5'   # Senin–Jumat
   workflow_dispatch:
 
 jobs:
